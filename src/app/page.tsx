@@ -16,6 +16,9 @@ export default function Home() {
     setSelectedCustomer(customer);
   }, []);
 
+  // Note: Virtual Scroll could have been applied here but since it's static data created on local, it's not really required.
+  // For real-time APIs we can implement it by giving height to one card and dividing the total visible height and adding the onScroll handler to get the scroll event and append more items to the view.
+
   return (
     <div className={styles.page}>
       <div className={styles.customerList}>
