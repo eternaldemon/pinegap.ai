@@ -1,4 +1,4 @@
-# pinegap.ai
+# pinegap.ai Assessment
 Assignment given by Pinegap.ai for Senior Frontend Engineer Role
 
 Develop a single-page application in React and Typescript which shows a customer details
@@ -21,6 +21,9 @@ This project was bootstrapped with npx create-next-app with typescript default t
 ## Instructions for running the application (Available Scripts)
 
 In the project directory, you can run:
+
+### `npm install`
+Installs the required dependencies and creates a package-lock.json file for next time dependency updates. All required packages are available in package.json and get installed in node_modules folder.
 
 ### `npm run dev`
 
